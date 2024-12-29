@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #34a853;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    height: auto;
+    position: relative;
+}
+.navbar{
+    background-color: #34a853;
+    position: fixed; /* or sticky */
+    top: 0;
+    width: 100%; /* Ensure it spans the width of the screen */
+    z-index: 1030;
+}
+section {
+    height: 100vh;
+    max-width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/coconut.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.home-text{
+    text-align: center;
+    color: #fff;
+}
+.home-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.home-text a{
+    color: #34a853;
+    text-decoration: none;
+    background-color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+.home-text a:hover{
+    color: #fff;
+    background-color: #34a853;
+}
+.list-style-none{
+    list-style: none;
+    font-size: 24px;
+}
+#benefits{
+    display: flex;
+    flex-direction: column;
+}
+#benefits h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.benefit-section{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.benefit-image{
+    width: 50%;
+}
+.benefit-image img{
+    width: 90%;
+    margin: 0 auto;
+    mix-blend-mode: multiply;
+
+}
+.text-left{
+    text-align: left;
+}
+h2 {
+    color: #34a853;
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.testimonials {
+    margin-top: 20px;
+}
+.testimonial {
+    font-style: italic;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #34a853;
+    background-color: #f9f9f9;
+}
+#risks{
+    height: 50vh;
+}
+#testimonials{
+    height: 50vh;
+}
+.wiki-link {
+    text-align: center;
+    margin-top: 20px;
+}
+.wiki-link a {
+    text-decoration: none;
+    color: #34a853;
+    font-weight: bold;
+}
+.wiki-link a:hover {
+    text-decoration: underline;
+}
