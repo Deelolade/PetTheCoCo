@@ -10,15 +10,6 @@ body {
     padding: 0;
     background-color: #f4f4f9;
 }
-header {
-    background-color: #34a853;
-    color: #fff;
-    text-align: center;
-    width: 100%;
-    top: 0;
-    height: auto;
-    position: relative;
-}
 .navbar{
     background-color: #34a853;
     position: fixed; /* or sticky */
@@ -36,7 +27,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 254, 34, 0.335);
 }
 #home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/coconut.jpg");
@@ -100,10 +91,14 @@ section {
 .text-left{
     text-align: left;
 }
-h2 {
-    color: #34a853;
-    margin-bottom: 10px;
+#risks h1{
+    font-size: 50px;
+    font-weight: bolder;
 }
+#testimonials h1{
+    font-size: 50px;
+    font-weight: bolder;
+} 
 ul {
     list-style-type: disc;
     margin-left: 20px;
